@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    }
+.container{
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url(https://wallpapercave.com/wp/wp11216638.jpg);
+    background-size: cover;
+    background-position: center;
+  
+    
+}
+.navbar{
+    display: flex;
+   
+    justify-content: end;
+
+}
+li {
+    display: inline-block;
+    list-style-type: none;
+    justify-content: end;
+    
+    padding: 40px;
+}
+ul{
+    margin-right: 120px;
+}
+a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+
+}
+.row{
+    display: flex;
+    
+    align-items: center;
+  
+    padding: 50px;
+
+}
+.col{
+    flex-basis: 50%;
+    margin-top: 5rem;
+   
+}
+#col2{
+
+
+    margin-left: 4rem;
+  
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+
+}
+h1:hover{
+    letter-spacing: 16px;
+    transition: .3s;
+}
+a:hover{
+    color: aqua;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: cyan;
+}
+.card{
+    width: 230px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0,0,0,0.1);
+    transition: transform 0.5s;
+}
+#cards1{
+    background-image: url(https://wallpapercave.com/uwp/uwp4460305.jpeg);
+}
+#cards2{
+    background-image: url(https://t3.ftcdn.net/jpg/04/83/99/42/360_F_483994277_swklfyWmGq7cT6PzspdrQOWbFIrxYVFV.jpg);
+}
+#cards3{
+    background-image: url(https://i.insider.com/5d3b004d2516e949fa4523b6?width=750&format=jpeg&auto=webp);
+}
+#cards4{
+    background-image: url(https://www.usnews.com/object/image/00000163-8d5b-d398-ad7f-8dffef190000/2-giza-getty.jpg?update-time=1527086541593&size=responsive640);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
